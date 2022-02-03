@@ -19,7 +19,7 @@
     "node_modules",
     "**/*.test.ts",
     "**/*.test.tsx",
-    "templates/**/node_modules",
-    "templates/**/lib"
+    "packages/**/node_modules",
+    "packages/**/lib"
   ]
 }

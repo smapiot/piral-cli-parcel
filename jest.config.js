@@ -1,7 +1,7 @@
 module.exports = {
   collectCoverage: true,
   setupFiles: [],
-  roots: ['templates/'],
+  roots: ['packages/'],
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
     '^.+\\.jsx?$': 'babel-jest',
