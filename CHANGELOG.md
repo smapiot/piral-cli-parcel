@@ -5,3 +5,4 @@
 - Moved `piral-cli-parcel` package to dedicated repository
 - Updated `parcel-plugin-at-alias` to use TypeScript
 - Updated `parcel-plugin-codegen` to use TypeScript
+- Updated Lerna to v6
