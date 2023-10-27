@@ -17,6 +17,7 @@ let original: any;
 
 export function setupBundler(setup: BundlerSetup) {
   const proto = Bundler.prototype as any;
+  process.env.PIRAL_PACKAGE_CAT = 'esm';
 
   if (!original) {
     original = proto.getLoadedAsset;

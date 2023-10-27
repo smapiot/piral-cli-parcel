@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0 (tbd)
+
+- Adjusted for Piral 1.0.0
+
 ## 0.15.0 (November 17, 2022)
 
 - Moved `piral-cli-parcel` package to dedicated repository
