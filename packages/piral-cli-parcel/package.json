@@ -39,15 +39,15 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "@types/node": "^13.9.0",
+    "@types/node": "^16",
     "@types/parcel-bundler": "^1.12.1",
-    "@types/yargs": "^15.0.4",
-    "piral-cli": "^1.0.0"
+    "@types/yargs": "^17",
+    "piral-cli": "1.7.3"
   },
   "dependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-at-alias": "^0.15.0",
-    "parcel-plugin-codegen": "^0.15.0",
+    "parcel-plugin-codegen": "2.0.0-pre.2",
     "parcel-plugin-externals": "^0.5.2"
   }
 }

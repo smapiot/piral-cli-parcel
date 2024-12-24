@@ -1,7 +1,7 @@
 import { postProcess, setupBundler } from './bundler';
 import { runParcel } from './bundler-run';
 
-process.on('message', async (msg) => {
+process.on('message', async (msg: any) => {
   try {
     if (msg.type === 'start') {
       const bundler = setupBundler({
