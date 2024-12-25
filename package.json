@@ -10,7 +10,7 @@
     "build": "lerna run build",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}' --project tsconfig.json",
     "prettify": "prettier --config prettier.config.js --write \"src/**/*.{ts,tsx}\"",
-    "test": "jest --forceExit --passWithNoTests",
+    "test": "vitest",
     "prepublish": "yarn build",
     "release": "lerna publish",
     "ci:version": "node tools/changelog-version.js",
@@ -25,6 +25,7 @@
     "tslint": "^5.12.1",
     "tslint-config-prettier": "^1.18.0",
     "tslint-plugin-prettier": "^2.0.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^2"
   }
 }

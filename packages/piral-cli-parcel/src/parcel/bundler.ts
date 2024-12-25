@@ -1,6 +1,6 @@
 import * as Bundler from "parcel-bundler";
-import extendBundlerWithAtAlias = require("parcel-plugin-at-alias");
-import extendBundlerWithCodegen = require("parcel-plugin-codegen");
+import * as extendBundlerWithAtAlias from "parcel-plugin-at-alias";
+import * as extendBundlerWithCodegen from "parcel-plugin-codegen";
 import type { PiletSchemaVersion, SharedDependency } from "piral-cli";
 import { log } from "piral-cli/utils";
 import {
@@ -11,7 +11,7 @@ import { SourceMapConsumer, SourceMapGenerator } from "source-map";
 import { existsSync, statSync, readFile, writeFile } from "fs";
 import { resolve, dirname, basename } from "path";
 import { extendConfig } from "./settings";
-import { BundlerSetup } from "../types";
+import type { BundlerSetup } from "../types";
 
 let original: any;
 

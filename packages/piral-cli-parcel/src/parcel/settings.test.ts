@@ -1,3 +1,4 @@
+import { it, describe, expect } from 'vitest';
 import { extendConfig } from './settings';
 
 describe('Piral CLI Settings', () => {

@@ -1,5 +1,5 @@
 import { defaultCacheDir } from './constants';
-import { ParcelConfig } from '../types';
+import type { ParcelConfig } from '../types';
 
 export function extendConfig(options: ParcelConfig): ParcelConfig {
   return {

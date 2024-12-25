@@ -47,6 +47,10 @@ stages:
       inputs:
         Arguments: setup
     - task: Yarn@2
+      displayName: Test Build
+      inputs:
+        Arguments: build
+    - task: Yarn@2
       displayName: Test Code
       inputs:
         Arguments: test

@@ -1,6 +1,7 @@
+import { it, describe, expect, vi } from 'vitest';
 import { postProcess } from './bundler';
 
-jest.mock('fs', () => ({
+vi.mock('fs', () => ({
   realpathSync: () => ({}),
   readFile(_name: string, _enc: string, cb: Function) {
     cb(undefined, readContent);
@@ -14,22 +15,14 @@ jest.mock('fs', () => ({
   },
 }));
 
-jest.mock('piral-cli/lib/external', () => ({
-  rc() {},
-  logger: {
-    stopSpinner() {},
-    verbose() {},
-    info() {},
-    error() {},
-    log() {},
-    setOptions() {},
-  },
-}));
+vi.mock('parcel-plugin-externals/utils', () => ({}));
 
-jest.mock('parcel-bundler', () => ({}));
+vi.mock('piral-cli/utils', () => ({}));
+
+vi.mock('parcel-bundler', () => ({}));
 
 let readContent = '';
-let writeContent: string = undefined;
+let writeContent: string | undefined = undefined;
 
 describe('Pilet Build Module', () => {
   it('postProcess should not write out the content if not JS', async () => {
