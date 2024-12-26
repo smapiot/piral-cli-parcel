@@ -7408,10 +7408,10 @@ parcel-bundler@^1.12.5:
     v8-compile-cache "^2.0.0"
     ws "^5.1.1"
 
-parcel-plugin-codegen@2.0.0-pre.2:
-  version "2.0.0-pre.2"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-codegen/-/parcel-plugin-codegen-2.0.0-pre.2.tgz#2bf57fabb4606dfdb9c2d5d231639eac123fef44"
-  integrity sha512-Ojlo/8uG8ywWlGlRrfOf6hBiyXvk1tbTI/YiLywqSPP74N6UCeFjTDQaOqY71eAJycNxYW5VxwcuiHpHbT0v/Q==
+parcel-plugin-codegen@^2:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/parcel-plugin-codegen/-/parcel-plugin-codegen-2.1.0.tgz#6ae1d9d7e0695f00522bf8473f17be8f5a3962ff"
+  integrity sha512-eU08oR+nkD0KMlP3B/wu/tQKMkOeCRfWBXxP2WcXpjZQpGjsXTl4oz2+yD9/+n63tMgkxeMrN0Sxrwf5ddEssA==
 
 parcel-plugin-externals@^0.5.2:
   version "0.5.2"
