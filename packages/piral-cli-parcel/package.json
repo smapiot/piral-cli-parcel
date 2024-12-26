@@ -46,7 +46,7 @@
   "dependencies": {
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-at-alias": "^0.15.0",
-    "parcel-plugin-codegen": "2.0.0-pre.2",
+    "parcel-plugin-codegen": "^2",
     "parcel-plugin-externals": "^0.5.2"
   }
 }
