@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0 (tbd)
+
+- Added provenance at publish
+
 ## 1.0.0 (December 26, 2024)
 
 - Adjusted for Piral 1.0.0
