@@ -41,7 +41,7 @@
     "@types/node": "^16",
     "@types/parcel-bundler": "^1.12.1",
     "@types/yargs": "^17",
-    "piral-cli": "1.7.3"
+    "piral-cli": "1.12.2"
   },
   "dependencies": {
     "parcel-bundler": "^1.12.5",

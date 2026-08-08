@@ -1,6 +1,6 @@
 [![Piral Logo](https://github.com/smapiot/piral/raw/main/docs/assets/logo.png)](https://piral.io)
 
-# piral-cli-parcel &middot; [![Build Status](https://smapiot.visualstudio.com/piral-pipelines/_apis/build/status/smapiot.piral-cli-parcel?branchName=develop)](https://smapiot.visualstudio.com/piral-pipelines/_build/latest?definitionId=105&branchName=develop) ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
+# piral-cli-parcel &middot; [![build](https://github.com/smapiot/piral-cli-parcel/actions/workflows/ci.yml/badge.svg)](https://github.com/smapiot/piral-cli-parcel/actions/workflows/ci.yml) ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 The `piral-cli` plugin for using `parcel` (v1) as bundler.
 
